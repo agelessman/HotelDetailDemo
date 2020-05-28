@@ -35,8 +35,8 @@ struct HotelDetailInfoView: View {
                     HStack(spacing: 0) {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
-                                ForEach(self.response.comment.hotelDetailPageTags) { tag in
-                                    Text("\(tag.mainTagName) \(tag.commentCount)")
+                                ForEach(self.response.comment.tags) { tag in
+                                    Text("\(tag.name) \(tag.commentCount)")
                                         .padding([.trailing, .leading], 5)
                                         .clipShape(Capsule())
                                         .overlay(

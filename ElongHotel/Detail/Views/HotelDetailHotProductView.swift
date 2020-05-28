@@ -39,7 +39,7 @@ struct HotelDetailHotProductView: View {
                         
                         HStack {
                             ZStack(alignment: .bottomTrailing) {
-                                WebImage(url: URL(string: self.productImage[product.mroomId]?[0] ?? ""))
+                                WebImage(url: URL(string: self.productImage[product.rId]?[0] ?? ""))
                                     .resizable()
                                     .scaledToFill()
                                     .animation(.easeInOut(duration: 0.5))
@@ -47,8 +47,8 @@ struct HotelDetailHotProductView: View {
                                     .cornerRadius(6)
                                     .padding(0)
                                 
-                                if self.productImage[product.mroomId] != nil {
-                                    Text("\(self.productImage[product.mroomId]!.count)张")
+                                if self.productImage[product.rId] != nil {
+                                    Text("\(self.productImage[product.rId]!.count)张")
                                         .font(.caption)
                                         .foregroundColor(.white)
                                         .padding(5)

@@ -79,7 +79,7 @@ struct HotelCell: View {
                 .cornerRadius(6)
                 .padding(0)
             
-            Text(hotel.HotelName)
+            Text(hotel.name)
                 .font(.subheadline)
                 .lineLimit(1)
             
@@ -97,7 +97,7 @@ struct HotelCell: View {
                     Text("¥")
                        .font(.subheadline)
                        
-                    Text("\(hotel.LowestPrice)")
+                    Text("\(hotel.price)")
             
                 
                     Text("起").font(.caption).foregroundColor(.secondary)

@@ -33,7 +33,7 @@ struct ContentView: View {
         
                         if self.response != nil {
                             GeometryReader { geo in
-                                 HotelDetailFilterDetailView(filters: self.response!.hotelFilterRemakeInfo.goodsFilter, show: self.$showFilterDetail)
+                                 HotelDetailFilterDetailView(filters: self.response!.filterInfo.normalGoodsFilters, show: self.$showFilterDetail)
                                      .frame(width: geo.size.width, height: geo.size.height)
                                      .opacity(self.showFilterDetail ? 1 : 0)
                              }
@@ -65,9 +65,9 @@ struct ContentView: View {
 
                        HotelDetailAddressView(response: self.response!)
 
-                       if self.response?.bigOperatingTip != nil {
+                       if self.response?.banner != nil {
                            ZStack(alignment: .trailing) {
-                               WebImage(url: URL(string: self.response!.bigOperatingTip!.bgPicUrl))
+                               WebImage(url: URL(string: self.response!.banner!.bgPicUrl))
                                    .resizable()
                                    .scaledToFit()
                                    .animation(.easeInOut(duration: 0.5))

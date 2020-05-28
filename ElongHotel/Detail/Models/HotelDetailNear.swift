@@ -16,8 +16,8 @@ final class HotelDetailNear: Codable {
 final class Hotel: Codable, Identifiable {
     let id = UUID().uuidString
     let Distance: Int
-    let HotelName: String
-    let LowestPrice: Int
+    let name: String
+    let price: Int
     let PicUrl: String
     let commentScore: Double
 }

@@ -157,8 +157,8 @@ struct HotelRoomSon: View {
                 }
                 
                 HStack {
-                    if self.product.supplierName != nil {
-                        Text(self.product.supplierName!)
+                    if self.product.fromName != nil {
+                        Text(self.product.fromName!)
                             .foregroundColor(Color("themeColor"))
                             .font(.subheadline)
                     }
@@ -200,7 +200,7 @@ struct HotelRoomSon: View {
                       
                       if HotelPayTransform.getPayDesc(product.payType).1 != nil {
                           Text(HotelPayTransform.getPayDesc(product.payType).1!)
-                              .font(.subheadline)
+                              .font(.body)
                               .foregroundColor(Color("themeColor"))
                               .padding(.top, 8)
                       }

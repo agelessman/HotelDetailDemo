@@ -15,10 +15,10 @@ final class HotelDetailResponse: Codable {
     let comment: HotelDetailComment
     let areaName: String?
     let address: String
-    let trafficInfo: String
+    let poi: String
     let location: HotelLocation
-    let bigOperatingTip: HotelbigOperatingTip?
-    let hotelFilterRemakeInfo: HotelFilterRemakeInfo
+    let banner: HotelBanner?
+    let filterInfo: HotelFilterInfo
     let roomTypes:[HotelRoomType]?
     let products: [HotelProduct]?
     let policies: [HotelPolicieItem]
@@ -50,7 +50,7 @@ final class HotelDetailResponse: Codable {
     var filterItems: [HotelFilterListItem] {
         var items = [HotelFilterListItem]()
         
-        for item in self.hotelFilterRemakeInfo.goodsFastFilter {
+        for item in self.filterInfo.fastGoodsFilters {
             if let objs = item.filterList {
                 items.append(objs.first!)
             }
@@ -73,28 +73,24 @@ final class HotelPayTransform {
 }
 
 final class HotelLocation: Codable {
-    let latbd09: Double
     let latgcj02: Double
-    let latwgs84: Double
-    let lngbd09: Double
     let lnggcj02: Double
-    let lngwgs84: Double
 }
 
-final class HotelDetailPageTags: Codable, Identifiable {
+final class HotelConmentTags: Codable, Identifiable {
     let id = UUID().uuidString
     let commentCount: Int
-    let mainTagName: String
+    let name: String
 }
 
 final class HotelDetailComment: Codable {
-    let hotelDetailPageTags: [HotelDetailPageTags]
+    let tags: [HotelConmentTags]
     let totalCount: Int
     let CommentDes: String
     let CommentScore: Float
 }
 
-final class HotelbigOperatingTip: Codable {
+final class HotelBanner: Codable {
     let bgPicUrl: String
 }
 
@@ -110,9 +106,9 @@ final class HotelFilterListItem: Codable, Identifiable, Equatable {
     let filterList: [HotelFilterListItem]?
 }
 
-final class HotelFilterRemakeInfo: Codable {
-    let goodsFastFilter: [HotelFilterListItem]
-    let goodsFilter: [HotelFilterListItem]
+final class HotelFilterInfo: Codable {
+    let fastGoodsFilters: [HotelFilterListItem]
+    let normalGoodsFilters: [HotelFilterListItem]
 }
 
 final class HotelProduct: Codable, Identifiable {
@@ -123,8 +119,8 @@ final class HotelProduct: Codable, Identifiable {
     let roomTypeName: String
     let payType: Int
     let dayPrices: [HotelDayPrices]
-    let mroomId: String
-    let supplierName: String?
+    let rId: String
+    let fromName: String?
     let name: String?
     let recText: String?
     let showTags: [HotelTag]?
@@ -138,7 +134,6 @@ final class HotelAdditionListItem: Codable {
 
 final class HotelTag: Codable, Identifiable {
     let id = UUID().uuidString
-    let Available: Bool
     let Color: String
     let Name: String
 }
@@ -162,15 +157,14 @@ final class HotelRoomType: Codable, Identifiable {
 final class HotelPolicieItem: Codable, Identifiable {
     let id = UUID().uuidString
     let name: String
-    let type: Int?
     let value: String
 }
 
 final class HotelUserComment: Codable {
-    let moduleTitle: String
+    let title: String
     let totalCountTip: String
     
-    let hotelUserCommentInfo: HotelUserCommentInfo
+    let info: HotelUserCommentInfo
 }
 
 final class HotelUserCommentInfo: Codable {

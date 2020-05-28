@@ -1,0 +1,546 @@
+{
+  "address" : "广华居17号楼",
+  "areaName" : "亚运村/奥体中心地区",
+  "banner" : {
+    "bgPicUrl" : "http://m.elongstatic.com/mobileapi/hotel/operatingtip/anxinfang1.png"
+  },
+  "comment" : {
+    "CommentDes" : "棒极啦",
+    "CommentScore" : 4.9000000000000004,
+    "tags" : [
+      {
+        "commentCount" : 8,
+        "name" : "有消毒措施"
+      },
+      {
+        "commentCount" : 6,
+        "name" : "有体温检测"
+      },
+      {
+        "commentCount" : 1,
+        "name" : "疫情防护好"
+      },
+      {
+        "commentCount" : 28,
+        "name" : "服务周到"
+      }
+    ],
+    "totalCount" : 134
+  },
+  "filterInfo" : {
+    "fastGoodsFilters" : [
+      {
+        "describe" : "早餐",
+        "disable" : false,
+        "filterList" : [
+          {
+            "describe" : "含早餐",
+            "disable" : false,
+            "filterName" : "含早餐"
+          }
+        ],
+        "filterName" : "早餐"
+      },
+      {
+        "describe" : "支付方式",
+        "disable" : false,
+        "filterList" : [
+          {
+            "describe" : "到店付",
+            "disable" : false,
+            "filterName" : "到店付"
+          }
+        ],
+        "filterName" : "支付方式"
+      },
+      {
+        "describe" : "服务",
+        "disable" : false,
+        "filterList" : [
+          {
+            "describe" : "免费取消",
+            "disable" : false,
+            "filterName" : "免费取消"
+          }
+        ],
+        "filterName" : "服务"
+      },
+      {
+        "describe" : "优惠",
+        "disable" : false,
+        "filterList" : [
+          {
+            "describe" : "含有优惠",
+            "disable" : false,
+            "filterName" : "含有优惠"
+          }
+        ],
+        "filterName" : "优惠"
+      }
+    ],
+    "normalGoodsFilters" : [
+      {
+        "describe" : "床型",
+        "disable" : false,
+        "filterList" : [
+          {
+            "describe" : "大床",
+            "disable" : false,
+            "filterName" : "大床"
+          }
+        ],
+        "filterName" : "床型"
+      }
+    ]
+  },
+  "imgList" : [
+    {
+      "ImageUrl" : "http://pavo.elongstatic.com/i/mobile750_448/nw_MqmvpxIySk.webp"
+    },
+    {
+      "ImageUrl" : "http://pavo.elongstatic.com/i/mobile750_448/nw_Mqmv6wiHkc.webp"
+    },
+    {
+      "ImageUrl" : "http://pavo.elongstatic.com/i/mobile750_448/nw_OUoKNPtatG.webp"
+    },
+    {
+      "ImageUrl" : "http://pavo.elongstatic.com/i/mobile750_448/nw_MoxUgHxx1m.webp"
+    },
+    {
+      "ImageUrl" : "http://pavo.elongstatic.com/i/mobile750_448/nw_OUoLpAYOxW.webp"
+    }
+  ],
+  "location" : {
+    "latgcj02" : 40.033403999999997,
+    "lnggcj02" : 116.44125699999999
+  },
+  "name" : "喆啡酒店(北京望京来广营店)",
+  "policies" : [
+    {
+      "name" : "入离店时间",
+      "value" : "入住时间13:00以后      离店时间12:00以前"
+    },
+    {
+      "name" : "预订须知",
+      "value" : "根据4月10日、4月29日北京市肺炎疫情防控工作新闻发布会、4月18日北京市《关于做好复工复产疫情防控常态化工作的通告》。自4月19日起，天津、河北以外省市的低风险地区来京入住酒店人员，应持有7日内核酸检测阴性证明，或在北京进行核酸检测呈阴性并接受酒店健康管理；且全国健康通行码或北京健康保认证为“未见异常”状态。自4月30日起，对国内低风险地区的进京、出差返京人员不再要求居家隔离观察14天，正在居家集中观察的可以解除观察，其中不包括境外回来的和湖北回来的人员以及其他省市高中风险进京的人员。\n2020-03-17至2020-04-30,防疫期间，请在下单前与酒店确认接待政策，以免影响您的入住。"
+    }
+  ],
+  "products" : [
+    {
+      "additionList" : [
+        {
+          "content" : "18平米",
+          "key" : "area"
+        },
+        {
+          "content" : "无窗",
+          "key" : "window"
+        },
+        {
+          "content" : "2-4层(普通楼层)",
+          "key" : "floor"
+        },
+        {
+          "content" : "大床",
+          "key" : "bed"
+        }
+      ],
+      "dayPrices" : [
+        {
+          "Price" : 168
+        }
+      ],
+      "rId" : "1234567",
+      "name" : "标准价",
+      "newCancelDesc" : [
+        "不可取消"
+      ],
+      "recText" : "赞！为您挑到了本店的热销房间",
+      "roomTypeName" : "醇享生活房(无窗)",
+      "showTags" : [
+        {
+          "Color" : "#4499ff",
+          "Name" : "立即确认"
+        }
+      ],
+      "fromName" : "高星酒店",
+      "breInfo" : "含早",
+      "payType" : 0
+    }
+  ],
+  "roomTypes" : [
+    {
+      "additionList" : [
+        {
+          "content" : "18平米",
+          "key" : "area"
+        },
+        {
+          "content" : "无窗",
+          "key" : "window"
+        },
+        {
+          "content" : "2-4层(普通楼层)",
+          "key" : "floor"
+        },
+        {
+          "content" : "大床",
+          "key" : "bed"
+        }
+      ],
+      "coverImg" : "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.webp",
+      "id" : "1234567",
+      "mId" : "1234567",
+      "name" : "醇享生活房(无窗)",
+      "price" : 168,
+      "products" : [
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        },
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        }
+      ],
+      "smallImgs" : [
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSPI0EFi.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoKEjUjjG.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoL1WjrsA.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxTJbKkZa.jpg"
+      ],
+      "showed" : "aaaa"
+    },
+    {
+      "additionList" : [
+        {
+          "content" : "18平米",
+          "key" : "area"
+        },
+        {
+          "content" : "无窗",
+          "key" : "window"
+        },
+        {
+          "content" : "2-4层(普通楼层)",
+          "key" : "floor"
+        },
+        {
+          "content" : "大床",
+          "key" : "bed"
+        }
+      ],
+      "coverImg" : "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.webp",
+      "id" : "1234567",
+      "mId" : "1234567",
+      "name" : "醇享生活房(无窗)",
+      "price" : 168,
+      "products" : [
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        },
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        }
+      ],
+      "smallImgs" : [
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSPI0EFi.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoKEjUjjG.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoL1WjrsA.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxTJbKkZa.jpg"
+      ]
+    },
+    {
+      "additionList" : [
+        {
+          "content" : "18平米",
+          "key" : "area"
+        },
+        {
+          "content" : "无窗",
+          "key" : "window"
+        },
+        {
+          "content" : "2-4层(普通楼层)",
+          "key" : "floor"
+        },
+        {
+          "content" : "大床",
+          "key" : "bed"
+        }
+      ],
+      "coverImg" : "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.webp",
+      "id" : "1234567",
+      "mId" : "1234567",
+      "name" : "醇享生活房(无窗)",
+      "price" : 168,
+      "products" : [
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        },
+        {
+          "additionList" : [
+            {
+              "content" : "18平米",
+              "key" : "area"
+            },
+            {
+              "content" : "无窗",
+              "key" : "window"
+            },
+            {
+              "content" : "2-4层(普通楼层)",
+              "key" : "floor"
+            },
+            {
+              "content" : "大床",
+              "key" : "bed"
+            }
+          ],
+          "dayPrices" : [
+            {
+              "Price" : 168
+            }
+          ],
+          "rId" : "1234567",
+          "name" : "标准价",
+          "newCancelDesc" : [
+            "不可取消"
+          ],
+          "recText" : "赞！为您挑到了本店的热销房间",
+          "roomTypeName" : "醇享生活房(无窗)",
+          "showTags" : [
+            {
+              "Color" : "#4499ff",
+              "Name" : "立即确认"
+            }
+          ],
+          "fromName" : "高星酒店",
+          "breInfo" : "含早",
+          "payType" : 0
+        }
+      ],
+      "smallImgs" : [
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSbbDAuk.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxSPI0EFi.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoKEjUjjG.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_OUoL1WjrsA.jpg",
+        "http://pavo.elongstatic.com/i/mobile216_216/nw_MoxTJbKkZa.jpg"
+      ],
+      "breInfo" : "含早",
+      "payType" : 0
+    }
+  ],
+  "poi" : "距北苑地铁站直线1.2公里,驾车约2.6公里,预计7分钟",
+  "userComment" : {
+    "info" : {
+      "commentContent" : "前台服务热情，很专业，环境舒适，房间大，wifi网速快，门口有停车位，设施齐全，房子通风好，淋浴水热很舒服，床单被套干净，位置明显，很安静，没噪音 ！位置很好找 性价比超高，这么便宜价这样房间真的很不错 ！",
+      "commentDateTime" : "2020/02/16点评",
+      "commentScore" : {
+        "commentDes" : "棒极啦",
+        "facilityScore" : 4.9000000000000004,
+        "positionScore" : 4.9000000000000004,
+        "sanitationScore" : 4.9000000000000004,
+        "score" : 4.9000000000000004,
+        "serviceScore" : 4.9000000000000004
+      },
+      "roomTypeName" : "醇享生活房(无窗)",
+      "travelTypeDesc" : "独自出行",
+      "userName" : "我是一个小虎牙",
+      "userScore" : 5
+    },
+    "title" : "住客评论",
+    "totalCountTip" : "134条点评"
+  },
+  "starDes" : "棒极了"
+}

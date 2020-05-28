@@ -36,7 +36,7 @@ struct HotelDetailAddressView: View {
                 .padding([.leading, .trailing], 10)
                 .padding([.bottom], 5)
                 
-                Text("\(self.response.trafficInfo)")
+                Text("\(self.response.poi)")
                     .font(.caption)
                     .foregroundColor(.white)
                     .padding([.leading, .trailing, .bottom], 10)

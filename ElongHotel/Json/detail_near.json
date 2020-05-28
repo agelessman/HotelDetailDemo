@@ -1,0 +1,68 @@
+
+{
+
+  "HotelList": [
+    {
+      
+      "Distance": 309,
+      
+      "name": "北京新侨诺富特饭店",
+      
+      "price": 658,
+      
+      "PicUrl": "http://pavo.elongstatic.com/i/mobile220_220/nw_000dlanY.webp",
+      
+      "commentScore": 4.5999999999999996
+    },
+    {
+      
+      "Distance": 184,
+     
+      "name": "北京崇文门饭店",
+     
+      "price": 758,
+      
+      "PicUrl": "http://pavo.elongstatic.com/i/mobile220_220/nw_0004VriW.webp",
+     
+      "commentScore": 4.7000000000000002
+    },
+    {
+      
+      "Distance": 2294,
+     
+      "name": "北京映向城市文化酒店",
+     
+      "price": 425,
+      
+      "PicUrl": "http://pavo.elongstatic.com/i/mobile220_220/nw_LSampEjn9K.webp",
+     
+      "commentScore": 4.9000000000000004
+    },
+    {
+      
+      "Distance": 770,
+     
+      "name": "北京首都宾馆",
+      
+      "price": 1059,
+      
+      "PicUrl": "http://pavo.elongstatic.com/i/mobile220_220/nw_000eDIxn.webp",
+     
+      "commentScore": 4.5999999999999996
+},
+    {
+          
+          "Distance": 770,
+         
+          "name": "北京首都宾馆",
+          
+          "price": 1059,
+          
+          "PicUrl": "http://pavo.elongstatic.com/i/mobile220_220/nw_000eDIxn.webp",
+         
+          "commentScore": 4.5999999999999996
+    }
+  ],
+ 
+  "SurroundRecomHotelNum": 17
+}

@@ -1,0 +1,6 @@
+framework module Pods_ElongHotel {
+  umbrella header "Pods-ElongHotel-umbrella.h"
+
+  export *
+  module * { export * }
+}

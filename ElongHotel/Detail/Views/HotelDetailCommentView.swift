@@ -16,7 +16,7 @@ struct HotelDetailCommentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Text(comment.moduleTitle)
+                Text(comment.title)
                     .font(.headline)
                 
                 Spacer()
@@ -35,11 +35,11 @@ struct HotelDetailCommentView: View {
             
             HStack {
                 HStack(alignment: .firstTextBaseline, spacing: 5) {
-                    Text("\(self.comment.hotelUserCommentInfo.commentScore.score, specifier: "%.1f")")
+                    Text("\(self.comment.info.commentScore.score, specifier: "%.1f")")
                         .font(.title)
                         .fontWeight(.bold)
                     
-                    Text(self.comment.hotelUserCommentInfo.commentScore.commentDes)
+                    Text(self.comment.info.commentScore.commentDes)
                         .font(.caption)
                 }
                 .foregroundColor(Color("themeColor"))
@@ -49,15 +49,15 @@ struct HotelDetailCommentView: View {
                 
                 HStack {
                     VStack(spacing: 4) {
-                        getCommentProgress("位置", score: self.comment.hotelUserCommentInfo.commentScore.positionScore)
+                        getCommentProgress("位置", score: self.comment.info.commentScore.positionScore)
                         
-                        getCommentProgress("服务", score: self.comment.hotelUserCommentInfo.commentScore.serviceScore)
+                        getCommentProgress("服务", score: self.comment.info.commentScore.serviceScore)
                     }
                     
                     VStack(spacing: 4) {
-                        getCommentProgress("设施", score: self.comment.hotelUserCommentInfo.commentScore.facilityScore)
+                        getCommentProgress("设施", score: self.comment.info.commentScore.facilityScore)
                         
-                        getCommentProgress("卫生", score: self.comment.hotelUserCommentInfo.commentScore.sanitationScore)
+                        getCommentProgress("卫生", score: self.comment.info.commentScore.sanitationScore)
                     }
                 }
                 .padding(10)
@@ -68,7 +68,7 @@ struct HotelDetailCommentView: View {
         
             /// 个人头像
             HStack {
-                Text("\(self.getFirstC(self.comment.hotelUserCommentInfo.userName))")
+                Text("\(self.getFirstC(self.comment.info.userName))")
                     .padding(5)
                     .foregroundColor(.white)
                     .background(Color.green)
@@ -76,11 +76,11 @@ struct HotelDetailCommentView: View {
                 
                 VStack(alignment: .leading, spacing: 5) {
                     HStack {
-                        Text(self.comment.hotelUserCommentInfo.userName)
+                        Text(self.comment.info.userName)
                             .foregroundColor(.black)
                             .font(.subheadline)
                         
-                        Text(self.comment.hotelUserCommentInfo.travelTypeDesc)
+                        Text(self.comment.info.travelTypeDesc)
                             .foregroundColor(.secondary)
                             .font(.caption)
                             .padding([.leading, .trailing], 8)
@@ -88,14 +88,14 @@ struct HotelDetailCommentView: View {
                             .background(Color("grayBgColor"))
                     }
                     
-                    Text("\(self.comment.hotelUserCommentInfo.commentDateTime) \(self.comment.hotelUserCommentInfo.roomTypeName)")
+                    Text("\(self.comment.info.commentDateTime) \(self.comment.info.roomTypeName)")
                             .foregroundColor(.secondary)
                             .font(.caption)
                 }
                 
                 Spacer()
                 
-                Text("\(self.comment.hotelUserCommentInfo.userScore, specifier: "%.1f")分")
+                Text("\(self.comment.info.userScore, specifier: "%.1f")分")
                     .font(.subheadline)
                     .foregroundColor(Color("themeColor"))
                     .padding([.leading, .trailing], 10)
@@ -105,7 +105,7 @@ struct HotelDetailCommentView: View {
             }
             .padding([.leading, .trailing], 10)
     
-            Text(self.comment.hotelUserCommentInfo.commentContent)
+            Text(self.comment.info.commentContent)
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 .fixedSize(horizontal: false , vertical: true)
